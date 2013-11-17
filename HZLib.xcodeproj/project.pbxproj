@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		EABEFCD7183811EF006CBF36 /* HZLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HZLib; sourceTree = BUILT_PRODUCTS_DIR; };
-		EABEFCDA183811EF006CBF36 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EABEFCDA183811EF006CBF36 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = main.c; sourceTree = "<group>"; };
 		EABEFCDC183811EF006CBF36 /* HZLib.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HZLib.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,6 +225,7 @@
 				EABEFCE2183811EF006CBF36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
