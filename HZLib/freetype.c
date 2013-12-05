@@ -63,7 +63,7 @@ int ttfFont(int argc, char **argv)
     
     printf("number of fixed bitmap %d\n", face->num_fixed_sizes);
     
-    printf("Char size %ld\n", face->size);
+    printf("Char size %i\n", face->size);
     
     //convert from ucs to index
     glyph_index = FT_Get_Char_Index( face, char_index );
@@ -100,7 +100,7 @@ int ttfFont(int argc, char **argv)
     {
         for (i = 0; i < font_size; i++)
         {
-            printf(" ");//("_");
+            printf("1");//("_");
         }
         printf("\n");
     }
@@ -109,7 +109,7 @@ int ttfFont(int argc, char **argv)
     {
         for (i = 1; i <= face->glyph->bitmap_left; i++)
         {
-            printf(" ");//("_");
+            printf("2");//("_");
         }
         
         for (k = 0; k < face->glyph->bitmap.pitch; k++)
@@ -133,12 +133,11 @@ int ttfFont(int argc, char **argv)
                 }
             }
         }
-        /*
+        printf("====%i",i);
          for (; i <= font_size; i++)
          {
-         printf("|");
+         printf("3");
          }
-         */
         printf("\n");
     }
     
@@ -146,7 +145,7 @@ int ttfFont(int argc, char **argv)
     {
         for (i = 0; i < font_size; i++)
         {
-            printf(" ");//(" ")
+            printf("4");//(" ")
         }
         printf("\n");
     }
