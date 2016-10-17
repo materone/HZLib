@@ -200,7 +200,7 @@ int convHz(const char * word)
         0x80,0x40,0x20,0x10,0x08,0x04,0x02,0x01
     };
     
-    fphzk = fopen("/bak/HZK16", "rb");
+    fphzk = fopen("/Users/tony/hzk16", "rb");
     if(fphzk == NULL){
         fprintf(stderr, "error hzk16\n");
         return 1;
@@ -220,7 +220,7 @@ int convHz(const char * word)
         for(j=0; j<2; j++){
             for(i=0; i<8; i++){
                 flag = buffer[k*2+j]&key[i];
-                printf("%s", flag?"+":" ");
+                printf("%s", flag?"*":" ");
             }
         }
         printf("\n");
@@ -370,7 +370,8 @@ int main(int argc, const char * argv[])
     
     char *argvs[4]={
         "freetype",
-        "/Users/tony/Documents/Dev/FreeType/wqy-microhei-lite.ttc",
+        //"/Users/tony/Documents/Dev/FreeType/wqy-microhei-lite.ttc",
+        "/Users/tony/Downloads/喜满菲菲.ttf",
         "64",
         "8C2D"
     };

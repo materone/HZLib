@@ -63,7 +63,7 @@ int ttfFont(int argc, char **argv)
     
     printf("number of fixed bitmap %d\n", face->num_fixed_sizes);
     
-    printf("Char size %i\n", face->size);
+    printf("Char size %i\n", face->size->metrics.x_ppem);
     
     //convert from ucs to index
     glyph_index = FT_Get_Char_Index( face, char_index );

@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "248"
             endingLineNumber = "248"
-            landmarkName = "convMHz()"
+            landmarkName = "convImage()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -31,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "244"
             endingLineNumber = "244"
-            landmarkName = "convMHz()"
+            landmarkName = "convImage()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -47,7 +47,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "293"
             endingLineNumber = "293"
-            landmarkName = "convtwo()"
+            landmarkName = "ConvBitmap2PageModeLCD()"
             landmarkType = "7">
             <Locations>
                <Location
@@ -56,6 +56,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "convtwo"
                   moduleName = "HZLib"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tony/Documents/Dev/HZLib/HZLib/main.c"
                   timestampString = "406342653.59466"
                   startingColumnNumber = "9223372036854775807"
@@ -70,6 +71,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "convtwo"
                   moduleName = "HZLib"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tony/Documents/Dev/HZLib/HZLib/main.c"
                   timestampString = "406342653.594879"
                   startingColumnNumber = "9223372036854775807"
@@ -93,7 +95,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "296"
             endingLineNumber = "296"
-            landmarkName = "convtwo()"
+            landmarkName = "ConvBitmap2PageModeLCD()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
